@@ -7,6 +7,8 @@ COF-C02 - SnowPro™ Core Certification
 ### Virtual Warehouses
 [warehouses](https://docs.snowflake.com/user-guide/warehouses)
 
+[Considerations](https://docs.snowflake.com/user-guide/warehouses-considerations)
+
 ### Tables
 [Snowflake Table](https://docs.snowflake.com/en/user-guide/tables-micro-partitions)
 
