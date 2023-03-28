@@ -9,4 +9,5 @@ COF-C02 - SnowPro™ Core Certification
 
 ### Tables
 [Snowflake Table](https://docs.snowflake.com/en/user-guide/tables-micro-partitions)
+
 [Comparison of Table Types](https://docs.snowflake.com/en/user-guide/tables-temp-transient#comparison-of-table-types)
