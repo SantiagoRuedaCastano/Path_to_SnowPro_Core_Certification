@@ -4,7 +4,23 @@ COF-C02 - SnowPro™ Core Certification
 
 [SnowPro™ Core Certification](https://learn.snowflake.com/courses/course-v1:snowflake+CERT-SPC-GUIDE+B/about)
 
-![Exam Domain Breakdown](https://learn.snowflake.com/assets/courseware/v1/e809253fad0f6ad9d5b7d0b6a3686603/asset-v1:snowflake+CERT-SPC-GUIDE+B+type@asset+block/core_domains_updated.png)
+# Exam Domain Breakdown
+| Domain | Domain Weightings on Exams |
+| :- | :- |
+| Snowflake Data Cloud Features & Architecture | 25% |
+| Account Access and Security | 20% |
+| Data Transformations | 20% |
+| Performance Concepts | 15% |
+| Data Loading and Unloading | 10% |
+| Data Protection and Data Sharing | 10% |
+
+
+
+
+## Snowflake Data Cloud Features & Architecture
+
+
+
 
 
 ### Virtual Warehouses
