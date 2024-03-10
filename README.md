@@ -41,20 +41,18 @@ COF-C02 - SnowPro™ Core Certification
         * [Design](https://docs.snowflake.com/en/user-guide/table-considerations)
     *	 [View types](https://docs.snowflake.com/en/user-guide/views-introduction)
     *	 [Data types](https://docs.snowflake.com/en/data-types)
-    *	 User-Defined Functions (UDFs)
-    *	 User Defined Table Functions (UDTFs)
-    *	 Stored procedures
-    *	 Streams
-    *	 Tasks
-    *	 Pipes
-    *	 Shares
-    *	 Sequences
+    *	 [UDF and UDTFs](https://docs.snowflake.com/en/developer-guide/udf/udf-overview)
+    *	 [Stored procedures](https://docs.snowflake.com/en/developer-guide/stored-procedure/stored-procedures-overview)
+    *	 [Streams](https://docs.snowflake.com/en/user-guide/streams-intro)
+    *	 [Tasks](https://docs.snowflake.com/en/user-guide/tasks-intro)
+    *	 [Pipes](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro)
+    *	 [Shares](https://docs.snowflake.com/en/user-guide/data-sharing-provider)
+    *	 [Sequences](https://docs.snowflake.com/en/user-guide/querying-sequences)
 
 
 * Outline Snowflake storage concepts.
-    * [Micro-partitions](https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions)
-    * Data clustering
-    * Data storage monitoring
+    * [Micro-partitions & Data clustering](https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions)
+    * [Data storage monitoring](https://docs.snowflake.com/en/user-guide/tables-storage-considerations)
 
 
 ## Account Access and Security (20%)
@@ -126,7 +124,7 @@ COF-C02 - SnowPro™ Core Certification
 
 ## Performance Concepts (15%)
 
-* Explain the use of the Query Profile.
+* [Explain the use of the Query Profile](https://docs.snowflake.com/en/user-guide/ui-query-profile)
     *	Explain plans
     *	Data spilling
     *	Use of the data cache
