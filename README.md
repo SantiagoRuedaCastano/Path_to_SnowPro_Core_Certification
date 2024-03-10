@@ -35,10 +35,12 @@ COF-C02 - SnowPro™ Core Certification
 * Outline Snowflake’s catalog and objects.
     *	 [Databases](https://docs.snowflake.com/en/guides-overview-db)
     *	 [Stages](https://docs.snowflake.com/en/user-guide/data-load-considerations-stage)
-    *	 Schema types
-    *	 Table types
+    *	 [Schema types](https://docs.snowflake.com/en/sql-reference/sql/create-schema)
+    * Tables
+        * [table types](https://docs.snowflake.com/en/user-guide/tables-temp-transient)
+        * [Design](https://docs.snowflake.com/en/user-guide/table-considerations)
     *	 [View types](https://docs.snowflake.com/en/user-guide/views-introduction)
-    *	 Data types
+    *	 [Data types](https://docs.snowflake.com/en/data-types)
     *	 User-Defined Functions (UDFs)
     *	 User Defined Table Functions (UDTFs)
     *	 Stored procedures
@@ -74,7 +76,7 @@ COF-C02 - SnowPro™ Core Certification
     *	Explain role hierarchy and privilege inheritance
 
 
-Data governance capabilities in Snowflake.
+* Data governance capabilities in Snowflake.
     *	Accounts
     *	Organizations
     *	Secure views
