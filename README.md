@@ -59,22 +59,21 @@ COF-C02 - SnowPro™ Core Certification
 
 
 * Outline security principles.
-    *	Network security and policies
-    *	Multi-Factor Authentication (MFA)
-    *	Federated authentication
-    *	Key pair authentication
-    *	Single Sign-On (SSO)
+    *	[Network security and policies](https://docs.snowflake.com/en/user-guide/network-policies)
+    *	[Multi-Factor Authentication (MFA)](https://docs.snowflake.com/en/user-guide/security-mfa)
+    *	[Federated authentication and Single Sign-On (SSO)](https://docs.snowflake.com/en/user-guide/admin-security-fed-auth-overview)
+    *	[Key pair authentication](https://docs.snowflake.com/en/user-guide/key-pair-auth)
 
 
 * Define the entities and roles that are used in Snowflake.
-    *	Overview of access control
+    *	[Overview of access control](https://docs.snowflake.com/en/user-guide/security-access-control-overview)
         * Access control frameworks
         * Access control privileges
     *	Outline how privileges can be granted and revoked
     *	Explain role hierarchy and privilege inheritance
 
 
-* Data governance capabilities in Snowflake.
+* [Data governance capabilities in Snowflake](https://docs.snowflake.com/en/guides-overview-govern)
     *	Accounts
     *	Organizations
     *	Secure views
