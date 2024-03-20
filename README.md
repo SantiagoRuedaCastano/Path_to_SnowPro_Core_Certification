@@ -25,7 +25,7 @@ COF-C02 - SnowPro™ Core Certification
     * [Snowflake Editions](https://docs.snowflake.com/en/user-guide/intro-editions)
 
 * Outline key Snowflake tools and user interfaces
-    * Snowsight (The Snowflake web interface)
+    * Snowsight (The Snowflake UI web interface)
     * SnowSQL (CLI client)
     * [Snowflake Connectors](https://other-docs.snowflake.com/en/connectors)
     * [Snowflake Drivers](https://docs.snowflake.com/en/developer-guide/drivers)
@@ -88,7 +88,7 @@ COF-C02 - SnowPro™ Core Certification
 
 * Explain how to work with standard data.
     *	Estimation functions
-    *	Sampling
+    *	[Sampling](https://docs.snowflake.com/en/sql-reference/constructs/sample)
         *	SAMPLE command
         *	/TABLESAMPLE command
         *	Sampling methods
@@ -97,24 +97,24 @@ COF-C02 - SnowPro™ Core Certification
     *	Supported function types
         *	System functions
         *	Table functions
-        *	External functions
-        *	User-Defined Functions (UDFs)
+        *	[External functions](https://docs.snowflake.com/en/sql-reference/external-functions-introduction)
+        *	[User-Defined Functions - UDFs](https://docs.snowflake.com/en/developer-guide/udf/udf-overview)
     *	Stored procedures
-    *	Streams
+    *	[Streams](https://docs.snowflake.com/en/user-guide/streams-intro)
     *	Tasks
 
-* Explain how to work with semi-structured data.
-    *	Supported data formats, data types, and sizes
+* [Explain how to work with semi-structured data](https://docs.snowflake.com/en/user-guide/querying-semistructured)
+    *	[Supported data formats, data types, and sizes](https://docs.snowflake.com/en/sql-reference/data-types-semistructured)
     *	VARIANT column
     *	Flattening the nested structure
-        *	FLATTEN command
-        *	LATERAL FLATTEN command
+        *	[FLATTEN command](https://docs.snowflake.com/en/sql-reference/functions/flatten)
+        *	[LATERAL FLATTEN command](https://docs.snowflake.com/en/sql-reference/constructs/join-lateral)
     *	Semi-structured data functions
         *	ARRAY/OBJECT creation and manipulation
         *	Extracting values
         *	Type predicates
 
-* Explain how to work with unstructured data.
+* [Explain how to work with unstructured data](https://docs.snowflake.com/en/user-guide/unstructured-intro)
     * Define and use directory tables
     * SQL file functions
         * Types of URLs available to access files
@@ -125,12 +125,12 @@ COF-C02 - SnowPro™ Core Certification
 
 * [Explain the use of the Query Profile](https://docs.snowflake.com/en/user-guide/ui-query-profile)
     *	Explain plans
-    *	Data spilling
+    *	[Data spilling](https://community.snowflake.com/s/article/Performance-impact-from-local-and-remote-disk-spilling)
     *	Use of the data cache
     *	Micro-partition pruning
     *	Query history
 
-* Explain virtual warehouse configurations.
+* [Explain virtual warehouse configurations](https://docs.snowflake.com/en/user-guide/warehouses)
     *	Types of warehouses
     *	Multi-clustering warehouses
         * Scaling policies
@@ -158,7 +158,7 @@ COF-C02 - SnowPro™ Core Certification
 
 ## Data Loading and Unloading (10%)
 
-* Define concepts and best practices that should be considered when loading data.
+* [Define concepts and best practices that should be considered when loading data](https://docs.snowflake.com/user-guide/data-load-considerations)
     *	Stages and stage types
     *	File size and formats
     *	Folder structures
@@ -207,19 +207,3 @@ COF-C02 - SnowPro™ Core Certification
         * DDL commands to create and manage shares
         * Privileges required for working with shares
     *	Secure Data Sharing (for example, Direct Share, Listing)
-
-
-### Virtual Warehouses
-[warehouses](https://docs.snowflake.com/user-guide/warehouses)
-
-[Considerations](https://docs.snowflake.com/user-guide/warehouses-considerations)
-
-### Tables
-[Snowflake Table](https://docs.snowflake.com/en/user-guide/tables-micro-partitions)
-
-[Comparison of Table Types](https://docs.snowflake.com/en/user-guide/tables-temp-transient#comparison-of-table-types)
-
-
-### Data Loading
-[Considerations](https://docs.snowflake.com/user-guide/data-load-considerations)
-
